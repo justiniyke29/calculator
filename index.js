@@ -1,21 +1,21 @@
-let num1=40 
+let num1=30
 let num2=5
 document.getElementById("num1-el").textContent= num1
 document.getElementById("num2-el").textContent=num2
 sumEl=document.getElementById("sum-el")
 function add(){
     let addition= num1 + num2
-sumEl.textContent=addition
+sumEl.textContent="sum: " +addition
 }
 function subtract(){
     let subtraction= num1 - num2
-    sumEl.textContent=subtraction
+    sumEl.textContent="sum: " + subtraction
 }
 function multiply(){
     let multiplication= num1 * num2
-    sumEl.textContent= multiplication
+    sumEl.textContent= "sum: " +multiplication
 }
 function divide(){
     let division= num1/num2
-    sumEl.textContent= division
+    sumEl.textContent= "sum: " +division
 }
